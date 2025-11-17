@@ -16,3 +16,30 @@ header{
     background-size: cover;
 
 }
+
+.navbar{
+    border: 2px solid white;
+}
+
+.header .logo,
+.header .navbar a{
+    color: white;
+}
+
+.header .navbar .navbar-item{
+    display: inline-block;
+}
+
+.header .navbar .logo{
+    float: left;
+}
+
+.header .navbar-items{
+    float: right;
+}
+
+.navbar{
+    content: '';
+    display: block;
+    clear: both;
+}
