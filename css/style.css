@@ -54,23 +54,23 @@ header{
     padding: 1rem;
 }
 
-.header .logo,
-.header .navbar a{
+ .logo,
+ .navbar a{
     color: white;
 }
 
-.header .navbar .navbar-item{
+.navbar .navbar-item{
     display: inline-block;
     padding: 1rem;
     text-transform: uppercase;
 }
 
-.header .navbar .logo{
+.navbar .logo{
     float: left;
     font-size: 3.5rem;
 }
 
-.header .navbar-items{
+.navbar-items{
     float: right;
     margin-top: 1rem;
 }
@@ -125,6 +125,21 @@ header{
     background-color: #fff;
     border-radius: 10em;
 }
+
+.btn-primary:hover{
+    background-color: #ddd;
+}
+.btn-secondary{
+    border: 1px solid #e63946;
+    border-radius: 2.5em;
+    color: #e63946;
+    background-color: #fff;
+}
+
+.btn-secondary:hover{
+     background-color: #ddd;
+}
+
 /*#########Utility Classes##########*/
 
 
@@ -160,6 +175,7 @@ header{
 
 .row{
     height: 350px;
+    box-shadow: 0px 0px 20px 0px#0000003b;
     
 }
 
@@ -202,4 +218,109 @@ header{
 .row h2{
     font-weight: 500;
     font-size: 3rem;
+}
+
+
+/* ############## Features Styling ############## */
+
+.box-wrapper h2{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.features{
+    padding: 10rem 0;
+    /* font-size: 1.5rem; */
+}
+.box-wrapper{
+ box-shadow: 5px 5px 20px 0px #00000056;
+}
+.box{
+    width: 33.3333333%;
+    padding: 2rem;
+    float: left;
+    text-align: center;
+}
+
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box-1, .box-3{
+    background-color: #263238;
+    color: #fff;
+}
+.box-2{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+}
+
+/* ################# Footer Styling ################### */
+
+.foot{
+    border: 2px solid red;
+    background-color: #263238;
+    color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+
+}
+.icons p{
+    margin-top: 0.4em;
+}
+
+
+/* ############## About Page Nav Styling ############## */
+
+.bg-dark{
+    background-color: #263238;
+    color: #fff;
+}
+
+.lg-heading{
+    font-size: 3rem;
+}
+
+.about{
+    padding: 5rem 0;
+}
+.about-heading{
+    border-bottom: 5px solid #e63946;
+}
+
+.aboutbox1, .aboutbox2{
+    float: left;
+    padding: 3em;
+    margin: 2em 10em;
+    align-items: center;
+    
+}
+.aboutbox1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about .container .aboutbox1 ul li{
+    list-style: none;
+    padding-left: 0; 
+}
+
+.about .container .aboutbox1 ul li::before{
+    content: '✓'; 
+  margin-right: 5px; 
+  color: #e63946
+}
+
+.about .container .aboutbox2 ul li{
+    list-style: none;
+    padding-left: 0; 
+}
+
+.about .container .aboutbox2 ul li::before{
+    content: '✓'; 
+  margin-right: 5px; 
+  color: #e63946
 }
