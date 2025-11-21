@@ -439,7 +439,7 @@ header{
     padding: 1rem;
 }
 
-.form h1::after{
+.form-wrapper .form h1::after{
     content:"";
     display: block;
     width: 100%;
@@ -465,7 +465,12 @@ header{
     padding: 1rem;
 }
 
-.form-btn{
+.address-group h2{
+    color: #ee4758;
+    font-weight: 700;
+}
+
+.form-wrapper .form-btn{
     display: block;
     margin: 0 auto;
     padding: 0.5em 3em;
