@@ -515,3 +515,50 @@ header{
     float:none;
     width: 100%;
 }
+
+@media (max-width: 500px){
+    /* .about  .aboutbox1, .aboutbox2{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+          
+    } */
+
+    .cta-banner-left, 
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+   
+    /* .about  .aboutbox1, .aboutbox2 .count-items{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+          
+    } */
+
+    .cta-banner-left, 
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+
+@media(max-width:500px){
+    .form-wrapper,
+    .form{
+        float: none;
+        display: block;
+        height: auto;
+
+    }
+}
