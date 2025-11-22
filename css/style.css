@@ -482,3 +482,36 @@ header{
     border: none;
     cursor: pointer;
 }
+
+
+/* #################### Media Quiries ##################### */
+
+@media (max-width:500px)
+{
+    html{
+        font-size: 50%;
+    }
+    .navbar .navbar-items, .navbar .logo{
+       float: none;
+       display: block;
+       width: 100%;
+       text-align: center;
+    }
+}
+
+.row{
+    height: auto;
+    width: 100%;
+}
+
+.row .text-box,
+.row .image-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+.box{
+    float:none;
+    width: 100%;
+}
